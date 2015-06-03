@@ -1,2 +1,2 @@
-#Ignore these directories
+#ignore the database directory since it is created locally
 Database
