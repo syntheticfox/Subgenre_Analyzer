@@ -1,7 +1,7 @@
 # Subgenre Analyzer
 An artificial intelligence project to determine the subgenre of a song given a genre.
 
-This is the command line version of the project. To see the project with a GUI created using QT, view the [GUI](https://github.com/ChrisTheEngineer/Subgenre_Analyzer/tree/GUI) branch.
+This is the command line version of the project. To see the project with a GUI created using Qt, view the [GUI](https://github.com/ChrisTheEngineer/Subgenre_Analyzer/tree/GUI) branch.
 
 #Project Description
 Project originally created using  Visual Studio 2015 RC on Windows 8.1
