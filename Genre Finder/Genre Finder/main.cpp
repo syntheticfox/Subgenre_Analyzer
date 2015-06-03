@@ -2,6 +2,9 @@
 #include <cstring>
 #include <algorithm>
 #include <Windows.h>
+#include <sys/types.h>//check if directory exists
+#include <sys/stat.h>//check if directory exits
+#include <direct.h>//create directory
 
 string currentFile = ""; //currently loaded audio file
 HWND win = NULL; //window to open file selector
@@ -14,7 +17,7 @@ void printHeader(){
 	cout << "Term Project: Sub-Genre Finder" << endl;
 	cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 }
-void loadAudio(){
+void loadAudio(){	//need to do: catch program failing when user exits selecting audio without actually selecting anything (close out of window)
 
 	//dialog box to obtain file path of audio
 	char file[MAX_PATH]="";
@@ -207,13 +210,28 @@ void saveAudioData(){//save audio data when user selected to quit program
 	char path[_MAX_PATH+1];//get root path name
 	GetModuleFileName(NULL,path,_MAX_PATH);
 	string sp = path;
-	string filePath = sp.substr(0,sp.length()-22) + "Genre Finder\\Database\\" + currentGenre + "_Database.txt";
+	string databasePath = sp.substr(0, sp.length() - 22) + "Genre Finder\\Database"; //path to the 'Database' directory
+	struct stat info;
+	
+	if (stat(databasePath.c_str(), &info) != 0) {//'Database' directory does not exist, create it
+		cout << "Creating a 'Database' directory...";
+		mkdir(databasePath.c_str());
+		cout << "Done." << endl;
+
+		cout << "Saving the " << currentGenre << " database...";
+	}
+	else if (info.st_mode & S_IFDIR) cout << "Saving the " << currentGenre << " database..."; //'Database' directory exists, continue
+	else cout << "Cannot access " << databasePath << endl;
+	
+	string filePath = databasePath + "\\" + currentGenre + "_Database.txt"; //path to a specific subgenre database file
 	ofstream databaseFile(filePath.c_str());
 	
 	if(databaseFile.is_open()){
 		for(int k = 0; k < database.size(); k++)//save all database items
 			if(databaseFile.good())databaseFile << database[k].peakTempo << ' ' << database[k].acTempo << endl;
 	}
+
+	cout << "Done." << endl;
 }
 int main() {
 	printHeader();
