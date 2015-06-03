@@ -194,7 +194,6 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
-Genre Finder/Genre Finder/Database/Electronic_Database.txt
 
 #ignore Database folder
 Genre Finder/Genre Finder/Database
