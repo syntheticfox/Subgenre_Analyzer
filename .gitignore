@@ -35,3 +35,6 @@ Makefile*
 
 #exclude Database folder - created locally
 Genre_Finder_GUI/Database
+
+#exclude build folder
+build-Genre_Finder-Desktop_Qt_5_4_2_MinGW_32bit-Debug
