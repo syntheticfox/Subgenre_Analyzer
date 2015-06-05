@@ -213,7 +213,7 @@ QString getGenre(int k){
 bool loadGenre(){ //load genre file and add subgenres to vector
     genres.clear();
     currentPath = QDir::currentPath().QString::toStdString();
-    currentPath = currentPath.substr(0,currentPath.find_last_of("/")) + "/Genre_Finder/";
+    currentPath = currentPath.substr(0,currentPath.find_last_of("/")) + "/Genre_Finder_GUI/";
 
     DIR *directory = opendir((currentPath+"Genres/").c_str());
     struct dirent *item = NULL;
