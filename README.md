@@ -23,3 +23,12 @@ Once the user selects 'Analyze', the audio's infromation will be displayed in a 
 <img src="/Documents/Images/Edit and Zoom.png?raw=true" alt="Edit and Zoom">
 
 The user can edit all parts of the song data excluding the song length by double clicking on the value of any piece of information. Additionally the user can zoom in and out of the visual feature vector. When the user is zoomed in, the image can be moved around.
+
+**Adding Genres:**
+
+To add a new genre, the user should create a text file in the [Genres](/Genre Finder/Genre Finder/Genres) folder. The file name should be the name of the genre. Below is an example of how each subgenre should be written (excluding the brackets):
+```
+[Subgenre name], [minimum tempo], [maximum tempo]
+```
+
+Files containing a more in-depth description and details of the project are located in the [Documents](/Documents) section. These documents correspond to the command line version of the project; however, are very similar in concept and should apply to this version.
