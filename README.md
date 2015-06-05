@@ -26,7 +26,7 @@ The user can edit all parts of the song data excluding the song length by double
 
 **Adding Genres:**
 
-To add a new genre, the user should create a text file in the [Genres](/Genre Finder/Genre Finder/Genres) folder. The file name should be the name of the genre. Below is an example of how each subgenre should be written (excluding the brackets):
+To add a new genre, the user should create a text file in the [Genres](/Genre_Finder_GUI/Genres) folder. The file name should be the name of the genre. Below is an example of how each subgenre should be written (excluding the brackets):
 ```
 [Subgenre name], [minimum tempo], [maximum tempo]
 ```
