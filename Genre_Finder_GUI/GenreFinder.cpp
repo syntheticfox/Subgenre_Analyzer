@@ -40,7 +40,7 @@ bool createImage(){
     QImage image(MAX_TEMPO*featureSize,MAX_TEMPO*featureSize,QImage::Format_RGB32);
 
     //white, red, blue, green, orange, grey, turquoise, brown,gold, blue/grey, purple, pink
-    QRgb colors[12] = {qRgb(255,255,0),qRgb(204,0,0),qRgb(0,0,255),
+    QRgb colors[12] = {qRgb(255,255,255),qRgb(204,0,0),qRgb(0,0,255),
                        qRgb(0,153,0),qRgb(255,128,0),qRgb(128,128,128),
                        qRgb(51,255,153),qRgb(102,51,0),qRgb(204,204,0),
                        qRgb(0,153,153),qRgb(153,0,153),qRgb(255,0,127)};
