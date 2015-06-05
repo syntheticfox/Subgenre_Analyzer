@@ -1,7 +1,0 @@
-Down Tempo, 65, 95
-Hip Hop, 85, 110
-House, 100, 130
-Breaks, 125, 135
-Trance, 135, 150
-Drum & Bass, 150, 170
-Dubstep, 140, 140
