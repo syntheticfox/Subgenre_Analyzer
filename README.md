@@ -8,7 +8,7 @@ Project originally created using Qt Creator 3.4.1 based on Qt 5.4.2 on Windows 8
 
 **Initial Program:**
 
-<img src="/Documents/Images/Initial Program.PNG?raw=true" alt="Initial Program">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/Documents/Images/Initial Program.PNG?raw=true" alt="Initial Program">
 
 The user can select a genre from the avaliable [genres](/Subgenre_Analyzer/Genre_Finder_GUI/Genres). Additoanlly, the user can load audio from their computer. The 'Load Audio' button will open a prompt to select a song. The user must load audio and select a genre and click the 'Update Genre Directory' before they can select the 'Analyze' option.
 
