@@ -1,7 +1,9 @@
 # Subgenre Analyzer
-An artificial intelligence project to determine the subgenre of a song given a general genre.
+An artificial intelligence project to determine the subgenre of a song given a genre.
 
 This is the GUI version of the project using Qt. To view the command line version, view the [CMD](https://github.com/ChrisTheEngineer/Subgenre_Analyzer/tree/CMD) branch.
+
+libZPlay library - used for FFT audio analysis
 
 #Project Description
 Project originally created using Qt Creator 3.4.1 based on Qt 5.4.2 on Windows 8.1
