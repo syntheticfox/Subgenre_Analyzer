@@ -33,4 +33,5 @@ To add a new genre, the user should create a text file in the [Genres](/Genre_Fi
 [Subgenre name], [minimum tempo], [maximum tempo]
 ```
 
+
 Files containing a more in-depth description and details of the project are located in the [Documents](/Documents) section. These documents correspond to the command line version of the project; however, are very similar in concept and should apply to this version.
