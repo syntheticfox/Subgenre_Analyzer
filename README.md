@@ -10,13 +10,13 @@ Project originally created using Qt Creator 3.4.1 based on Qt 5.4.2 on Windows 8
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/Documents/Images/Initial Program.PNG?raw=true" alt="Initial Program">
 
-The user can select a genre from the avaliable [genres](/Subgenre_Analyzer/Genre_Finder_GUI/Genres). Additonally, the user can load audio from their computer. The 'Load Audio' button will open a prompt to select a song. The user must load audio and select a genre and click the 'Update Genre Directory' before they can select the 'Analyze' button.
+The user can select a genre from the avaliable [genres](/Subgenre_Analyzer/Genre_Finder_GUI/Genres). Additonally, the user can load audio from their computer. The 'Load Audio' button will open a prompt to select a song. The user must load audio, select a genre, and click the 'Update Genre Directory' before they can select the 'Analyze' button.
 
 **Analyze Audio:**
 
 <img src="/Documents/Images/Analyze Audio.PNG?raw=true" alt="Analyze Audio">
 
-Once the user selects 'Analyze', the audio's infromation will be displayed in a seperate window. This includes the name, song length, peak tempo, autocorrection tempo, and the subgenre the program predicted. There is a visual representation of the feature vector, which shows all previous analyzed songs and the tempo ranges of each subgenre.
+Once the user selects 'Analyze', the audio's information will be displayed in a seperate window. This includes the name, song length, peak tempo, autocorrection tempo, and the subgenre the program predicted. There is a visual representation of the feature vector, which shows all previous analyzed songs and the tempo ranges of each subgenre.
 
 **Editing and Zoom:**
 
