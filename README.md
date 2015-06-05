@@ -18,7 +18,7 @@ The user can select a genre from the avaliable [genres](/Subgenre_Analyzer/Genre
 
 <img src="/Documents/Images/Analyze Audio.PNG?raw=true" alt="Analyze Audio">
 
-Once the user selects 'Analyze', the audio's information will be displayed in a seperate window. This includes the name, song length, peak tempo, autocorrection tempo, and the subgenre the program predicted. There is a visual representation of the feature vector, which shows all previous analyzed songs and the tempo ranges of each subgenre.
+Once the user selects 'Analyze', the audio's information will be displayed in a seperate window. This includes the name, song length, peak tempo, autocorrection tempo, and the subgenre the program predicted. The predicted subgenre is determined using clustering. There is a visual representation of the feature vector, which shows all previous analyzed songs and the tempo ranges of each subgenre.
 
 **Editing and Zoom:**
 
